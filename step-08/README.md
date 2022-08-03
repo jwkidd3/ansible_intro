@@ -208,8 +208,4 @@ changed: [host1]
 PLAY RECAP *********************
 host1              : ok=2    changed=1    unreachable=0    failed=0
 ```
-
-Ok, let's deploy another web server in
-[step-09](https://github.com/leucos/ansible-tuto/tree/master/step-09).
-
 [deprecated]: https://docs.ansible.com/ansible/latest/porting_guides/porting_guide_2.7.html#using-a-loop-on-a-package-module-via-squash-actions

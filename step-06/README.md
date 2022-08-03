@@ -107,5 +107,3 @@ Mmmh, not so great in fact... Our virtual host has been added anyway. Any
 subsequent apache restart will complain about our config and bail out. So we
 need a way to catch failures and revert back.
 
-Let's do that in
-[step-07](https://github.com/leucos/ansible-tuto/tree/master/step-07).

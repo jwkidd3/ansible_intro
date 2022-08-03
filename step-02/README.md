@@ -164,5 +164,3 @@ to select hosts](http://docs.ansible.com/intro_patterns.html):
 - `host*` would run on all hosts starting with 'host' and ending
   with '' (just like a shell glob too)
 
-There are other ways that involve groups, we'll see that in
-[step-03](https://github.com/leucos/ansible-tuto/tree/master/step-03).
