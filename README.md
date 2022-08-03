@@ -27,9 +27,7 @@ We're also assuming you have a keypair in your ~/.ssh directory.
 ### Installing Ansible
 
 The reference is the [installation
-guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html),
-but I strongly recommend the [Using pip & virtualenv (higly recommended
-!)](#using-pip--virtualenv-higly-recommended-) method.
+guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 
 #### Using pip & virtualenv (higly recommended !)
 
