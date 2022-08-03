@@ -1,0 +1,12 @@
+.tags
+.vagrant
+test/*.log
+test/*.log.test
+
+_book/
+node_modules/
+
+
+*.retry
+package-lock.json
+ubuntu-*-console.log
