@@ -1,0 +1,2 @@
+[myvirtualmachines]
+ec2-instance ansible_host=3.92.32.193 ansible_ssh_private_key_file=~/Downloads/kiddcorp.pem ansible_user=ec2-user
