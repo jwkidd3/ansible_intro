@@ -34,10 +34,10 @@ guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installa
 The best way to install Ansible (by far) is to use `pip` and virtual
 environments.
 
-Then, install ansible via `pip`:
+Then, install ansible via `pip3`:
 
 ```bash
-pip install ansible==2.7.1
+pip3 install ansible
 ```
 
 (or use whatever version you want).
