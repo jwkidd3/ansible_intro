@@ -9,7 +9,7 @@ defaults
     timeout server 50000ms
 
 listen cluster
-    bind {{ ansible_host }}:80
+    bind {{ ansible_default_ipv4.address }}:80
     mode http
     stats enable
     balance roundrobin
