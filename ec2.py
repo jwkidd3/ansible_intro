@@ -22,7 +22,7 @@ def get_aws_ec2_inventory():
 def generate_inventory():
     ec2_instances = get_aws_ec2_inventory()
 
-    inventory = {'all': {'hosts': []}, '_meta': {'hostvars': {}}}
+    inventory = {'all': {'hosts': []}, '_meta': {'hostvars': {}},'web': {'hosts': []}}
 
     for reservation in ec2_instances:
         for instance in reservation['Instances']:
@@ -31,6 +31,7 @@ def generate_inventory():
             public_ip = instance.get('PublicIpAddress', 'N/A')
 
             inventory['all']['hosts'].append(instance_id)
+            inventory['web']['hosts'].append(instance_id)
             inventory['_meta']['hostvars'][instance_id] = {
                 'ansible_host': private_ip,
                 'public_ip': public_ip,
