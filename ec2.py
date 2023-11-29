@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import boto3
 import json
 
@@ -14,7 +14,7 @@ def get_aws_ec2_inventory():
     # Filter EC2 instances based on your criteria
     #{'Name': f'tag:{tag_key}', 'Values': [tag_value]},
     response = ec2.describe_instances(Filters=[{'Name': 'instance-state-name', 'Values': ['running']},
-    {'Name': 'tag:role', 'Values': ['web','lb']}])
+    {'Name': 'tag:role', 'Values': ['user25-web']}])
     ec2_instances = response['Reservations']
 
     return ec2_instances
